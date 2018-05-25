@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>{{ $.Site.Title }}</title>
+    <link href="/css/main.css" rel="stylesheet"/>
+    <link href="/favicon.ico" rel="shortcut icon">
+  </head>
+  <body class="flex flex-col">
+  {{ block "header" . }}{{ partial "header" . }}{{ end }}
+  <main>
+  {{ block "main" . }}{{ end }}
+  </main>
+  {{ block "footer" . }}{{ partial "footer" . }}{{ end }}
+  </body>
+</html>

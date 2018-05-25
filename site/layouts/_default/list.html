@@ -1,0 +1,11 @@
+
+{{ define "main" }}
+  <h1>Posts</h1>
+  {{ range .Data.Pages }}
+    <section>
+      <h3><a href="{{ .URL }}">{{.Title}}</a></h3>
+      <div><em>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</em></div>
+      {{ .Content }}
+    </section>
+  {{ end }}
+{{ end }}
