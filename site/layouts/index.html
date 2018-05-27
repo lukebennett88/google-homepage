@@ -1,21 +1,26 @@
 {{ define "main" }}
-<div class="flex justify-center mb-8" style="padding-top: 10rem;">
-  <img class="mx-auto" src="/logo.png" alt="Google" height="92" width="272">
-</div>
+{{ block "header" . }}{{ partial "header" . }}{{ end }}
 
-<div class="flex justify-center">
-  <form class="mx-8" title="search" method="get" action="https://www.google.com/search?">
-    <div class="border border-grey flex justify-between mb-8 w-full px-4 py-2 search shadow-md">
-      <input class="text-lg h-auto w-full" type="text" name="q">
-      <span class="flex items-center justify-center">
-        <img class="microphone" src="/microphone.png">
-      </span>
-    </div>
-    <div class="flex justify-center">
-      <button class="bg-grey-light font-bold font-sans m-1 px-6 py-4 rounded text-grey" type="submit">Google Search</button>
-      <button class="bg-grey-light font-bold font-sans m-1 px-4 py-3 rounded text-grey" type="submit" formaction="https://google.com/search?btnI=I%27m+Feeling+Lucky&q=6920927181221&sourceid=navclient">I'm Feeling Lucky
-    </div>
-  </form>
-</div>
+<main>
+  <div class="flex justify-center mb-8" style="padding-top: 10rem;">
+    <img class="mx-auto" src="/logo.png" alt="Google" height="92" width="272">
+  </div>
 
+  <div class="flex justify-center">
+    <form class="mx-8" method="get" action="https://www.google.com/search?">
+      <div class="border flex justify-between mb-8 w-full px-4 py-2 search shadow-md">
+        <input class="text-lg h-auto w-full" type="text" name="q">
+        <span class="flex items-center justify-center">
+          <img class="microphone" src="/microphone.png">
+        </span>
+      </div>
+      <div class="flex justify-center">
+        <button class="bg-grey-light button font-bold m-1 px-6 py-4 rounded text-grey" type="submit">Google Search</button>
+        <button class="bg-grey-light button font-bold m-1 px-4 py-3 rounded text-grey" type="submit" formaction="https://google.com/search?btnI=I%27m+Feeling+Lucky&q=6920927181221&sourceid=navclient">I'm Feeling Lucky
+      </div>
+    </form>
+  </div>
+</main>
+
+{{ block "footer" . }}{{ partial "footer" . }}{{ end }}
 {{end}}
