@@ -117,11 +117,11 @@ html {
 h3 {
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0 0;
+  margin: 23px 0 0;
 }
 
 p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
   margin: 0;
 }
@@ -410,6 +410,7 @@ button {
 
 .text-green {
   color: rgb(0, 102, 33);
+  font-size: 14px;
 }
 
 .text-grey {
@@ -452,11 +453,33 @@ button {
   width: 100%
 }
 
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
 /* END OF TAILWIND */
 
 
 html {
   height: 100%;
+  -webkit-font-kerning: auto;
+  -webkit-font-smoothing: auto;
+  font-optical-sizing: auto;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: style weight small-caps;
+  font-variant: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variation-settings: normal;
 }
 
 body {
@@ -522,6 +545,10 @@ input:focus {
 ol {
   margin-bottom: 0;
   padding-left: 20px;
+}
+
+ol li {
+  line-height: 1.5;
 }
 
 
