@@ -53,6 +53,7 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
 *,
@@ -63,6 +64,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-size: 1.3rem;
 }
 
@@ -159,14 +162,14 @@ header {
 
 #search-bar img {
   height: 2rem;
-  margin-right: 2.1rem;
+  margin-right: 2.4rem;
 }
 
 #search-bar svg {
   color: #4a8bee;
   fill: currentColor;
-  height: 2rem;
-  margin-right: 2.1rem;
+  height: 2.4rem;
+  margin-right: 1.5rem;
 }
 
 #settings {
@@ -258,7 +261,8 @@ nav a:hover {
 /* Main content */
 main {
   color: #545454;
-  margin-left: 14.9rem;
+  flex: 1 0 auto;
+  margin-left: 16.8rem;
   padding-top: 1.6rem;
   width: 63.4rem;
 }
@@ -355,4 +359,90 @@ main .green {
   height: 0;
   margin-left: .6rem;
   width: 0;
+}
+
+main .grey {
+  color: #808080;
+}
+
+main .related h3 {
+  color: #222;
+  font-size: 1.8rem;
+  margin-top: 3.3rem;
+  margin-bottom: 2.1rem;
+}
+
+main .related div {
+  display: flex;
+  flex-direction: row;
+}
+
+main .related li {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: .3rem;
+  padding-right: 3.2rem;
+  padding-top: .3rem;
+}
+
+flex {
+  display: flex;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f2f2f2;
+  color: #6f6f6f;
+  flex-shrink: 0;
+  margin-top: 2.5rem;
+}
+
+footer div {
+  border-top: 1px solid #e4e4e4;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding: .8rem 3rem .8rem 16.8rem;
+}
+
+footer span:first-child {
+  border-right: 1px solid #e4e4e4;
+  font-size: 1.5rem;
+  padding-right: 1.7rem;
+}
+
+footer .circle {
+  background-color: #9e9e9e;
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin-bottom: 9px;
+  margin-left: 1.2rem;
+  margin-right: 4px;
+  margin-top: 6px;
+  vertical-align: middle;
+  width: 10px;
+}
+
+footer .light-grey {
+  color: #aaa;
+}
+
+footer a {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin-top: .4rem;
+  margin-bottom: .5rem;
+  padding-right: 2.6rem;
 }
