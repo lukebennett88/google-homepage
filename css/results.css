@@ -162,14 +162,22 @@ header {
 
 #search-bar img {
   height: 2rem;
-  margin-right: 2.4rem;
+  margin-right: 2.3rem;
+}
+
+#search-bar button {
+  border: none;
+  background: #fff;
+  margin-top: .1rem;
+  margin-right: 1.6rem;
+  outline: none;
+  padding: 0;
 }
 
 #search-bar svg {
   color: #4a8bee;
   fill: currentColor;
   height: 2.4rem;
-  margin-right: 1.5rem;
 }
 
 #settings {
