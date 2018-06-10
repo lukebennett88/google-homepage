@@ -393,8 +393,33 @@ main .related li {
   padding-top: .3rem;
 }
 
-flex {
-  display: flex;
+/* Goooooooooogle */
+table {
+  margin-top: 2.9rem;
+  margin-left: 14.4rem;
+}
+table a {
+  color: #4285f4;
+}
+
+.go {
+  background: url(/assets/goooooooooogle.png) no-repeat;
+  background-position: -24px 0;
+  height: 30px;
+  width: 50px;
+}
+
+.o {
+  background: url(/assets/goooooooooogle.png) no-repeat;
+  background-position: -74px 0;
+  width: 20px;
+}
+
+.gle {
+  background: url(/assets/goooooooooogle.png) no-repeat;
+  background-position: -96px 0;
+  height: 40px;
+  width: 80px;
 }
 
 /* Footer */
