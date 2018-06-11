@@ -8,7 +8,7 @@ You can the site live here;
 
 [**Easy Version:**](https://google-homepage-odin-project.netlify.com) Google.com homepage.
 
-[**Difficult Version:**](https://google-homepage-odin-project.netlify.com/search) Google.com search results page.
+[**Difficult Version:**](http://google-homepage-odin-project.netlify.com/build-this-webpage) Google.com search results page.
 
 [**Just for fun:**](https://google-homepage-odin-project.netlify.com/404.html) Google.com 404 page.
 
@@ -16,6 +16,7 @@ You can the site live here;
 ## What I learnt
 
 This project took much longer to build than I expected, but it was a great way to develop my CSS layout skills as I couldn't use the Google page source to understand how the layout was done (as it was uglified and minified). This forced me to build out my own HTML structure for the page as well as write most of the CSS myself. I did use the Developer Tools in my browser occasionally when I got stuck.
+I did learn about using the CSS rule `background-position` as a clever way to use muliple parts of the same image. This is a good way to lower your number of HTTP requests. I used this technique in the search results navigation at the bottom of the page.
 
 
 ## Tools used
