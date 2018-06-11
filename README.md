@@ -8,9 +8,9 @@ You can the site live here;
 
 [**Easy Version:**](https://google-homepage-odin-project.netlify.com) Google.com homepage.
 
-[**Difficult Version:**](https://google-homepage-odin-project.netlify.com/search)Google.com search results page.
+[**Difficult Version:**](https://google-homepage-odin-project.netlify.com/search) Google.com search results page.
 
-[**Just for fun**](https://google-homepage-odin-project.netlify.com/404.html)Google.com 404 page.
+[**Just for fun:**](https://google-homepage-odin-project.netlify.com/404.html) Google.com 404 page.
 
 
 ## What I learnt
@@ -20,8 +20,8 @@ This project took much longer to build than I expected, but it was a great way t
 
 ## Tools used
 
-- [Visual Studio Code](https://code.visualstudio.com/). The HTML and CSS for this page was all written in
-- Safari, Chrome and Firefox developer tools.
+- [Visual Studio Code](https://code.visualstudio.com/) for writing my code.
+- Safari, Chrome and Firefox developer tools for copying assets, font sizes etc.
 - [PixelSnap](https://getpixelsnap.com) for measuring elements and distances.
 - [Sip](http://sipapp.io/) for picking colours.
 - [GitHub](https://github.com) for version control.
